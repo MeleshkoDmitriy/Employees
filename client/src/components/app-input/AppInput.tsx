@@ -4,7 +4,7 @@ import { FC } from "react";
 interface FormProps {
   name: string;
   placeholder: string;
-  type?: "text" | "password" | "email" | undefined;
+  type?: "text" | "number" | "password" | "email" | undefined;
 }
 
 export const AppInput:FC<FormProps> = ({
